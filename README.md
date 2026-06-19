@@ -120,5 +120,3 @@ All keys live in `.env` (committed for academic use).
 ## Tech stack
 
 Kafka · HDFS · Spark · Redis · scikit-learn · FastAPI · Next.js 14 · Leaflet · Recharts · Docker Compose.
-
-See [CLAUDE.md](CLAUDE.md) for detailed architecture, per-service notes, and implementation gotchas.
