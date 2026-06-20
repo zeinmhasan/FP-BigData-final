@@ -74,10 +74,10 @@ def run_pipeline(docker_client, redis_client):
 
     results = {}
 
-    # 1. AQI (produces silver/aqi + gold/ml_features + gold/dashboard)
+    # 1. AQI (produces silver/aqi + gold/stations + gold/ml_features)
     results["aqi"] = spark_submit(docker_client, "process_aqi.py", "AirSight-ProcessAQI")
 
-    # 2. Weather (needs silver/aqi for combined view — run after AQI)
+    # 2. Weather (needs silver/aqi for combined view — run after AQI; writes gold/weather)
     results["weather"] = spark_submit(docker_client, "process_weather.py", "AirSight-ProcessWeather")
 
     # 3. Traffic (independent)
