@@ -5,6 +5,17 @@ Real-time **air quality & traffic monitoring** platform for Greater Jakarta (Jab
 > Academic big-data final project. The entire stack runs locally via Docker Compose.
 
 ---
+## 👥 Anggota Kelompok
+
+| Nama | NRP |
+|---|---|
+| Zein Muhammad Hasan | 5027241035 |
+| Andi Naufal Zaky | 5027241059 |
+| Naila Cahyarani Idelia | 5027241063 |
+| Aslam Ahmad Usman | 5027241074 |
+| Muhammad Ahsani Taqwiim Rakhman | 5027241099 |
+
+--- 
 
 ## Architecture
 
