@@ -102,7 +102,6 @@ curl -X POST http://localhost:8000/api/refresh   # push gold → Redis
 | Open-Meteo Air Quality | AQI + pollutants (primary) | none |
 | AQICN (waqi.info) | AQI (fallback) | `AQICN_TOKEN` |
 | OpenWeatherMap | Temperature, humidity, wind, conditions | `OPENWEATHER_API_KEY` |
-| Open-Meteo Forecast | UV index (current) + forecast weather | none |
 | TomTom | Traffic speed + congestion | `TOMTOM_API_KEY` |
 | OpenUV | UV index (defined but unused — 50/day quota) | `OPENUV_API_KEY` |
 
@@ -120,3 +119,8 @@ All keys live in `.env` (committed for academic use).
 ## Tech stack
 
 Kafka · HDFS · Spark · Redis · scikit-learn · FastAPI · Next.js 14 · Leaflet · Recharts · Docker Compose.
+
+## web Monitor 
+<img width="1920" height="1697" alt="screencapture-localhost-3000-2026-06-19-16_00_42" src="https://github.com/user-attachments/assets/8d426ebd-ea8b-4828-b48e-4018e5780784" />
+<img width="1920" height="1425" alt="screencapture-localhost-3000-stations-bekasi-2026-06-19-16_00_59" src="https://github.com/user-attachments/assets/24671450-919a-4973-99dd-e3fa19399313" />
+
