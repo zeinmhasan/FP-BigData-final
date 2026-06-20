@@ -102,7 +102,6 @@ curl -X POST http://localhost:8000/api/refresh   # push gold → Redis
 | Open-Meteo Air Quality | AQI + pollutants (primary) | none |
 | AQICN (waqi.info) | AQI (fallback) | `AQICN_TOKEN` |
 | OpenWeatherMap | Temperature, humidity, wind, conditions | `OPENWEATHER_API_KEY` |
-| Open-Meteo Forecast | UV index (current) + forecast weather | none |
 | TomTom | Traffic speed + congestion | `TOMTOM_API_KEY` |
 | OpenUV | UV index (defined but unused — 50/day quota) | `OPENUV_API_KEY` |
 
